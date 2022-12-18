@@ -13,8 +13,10 @@ call vundle#rc()
 
 " let Vundle manage Vundle, required
 Bundle 'gmarik/vundle'
+Bundle 'zah/nim.vim'
+Bundle 'scrooloose/syntastic'
 
 filetype plugin indent on     " required
 """
 
-inoremap jk <Esc>^`
+inoremap jk <Esc>l
